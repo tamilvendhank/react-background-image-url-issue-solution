@@ -1,11 +1,22 @@
 .App {
   text-align: center;
+
+
+  .App-logo-2 {
+    height: 40vmin;
+    pointer-events: none;
+    width: 100px;
+    background-image: url(assets/images/googlelogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  background-image: url(/images/googlelogo.png);
+  /*background-image: url(/images/googlelogo.png);*/
 }
 
 @media (prefers-reduced-motion: no-preference) {

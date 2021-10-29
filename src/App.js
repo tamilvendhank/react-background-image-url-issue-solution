@@ -1,10 +1,15 @@
 import './App.scss';
 
+import SampleComponent from './a/b/c';
+
+import Module from 'module';
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="App-logo"></p>
+        <SampleComponent />
         <p className="App-logo-2"></p>
         <p>
           Edit <code>src/App.js</code> and save to reload.

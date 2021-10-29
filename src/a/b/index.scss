@@ -1,0 +1,41 @@
+.static-access-from-public-directory {
+  float: left;
+  height: 40vmin;
+  pointer-events: none;
+  width: 100px;
+  /*background-image: url(/images/googlelogo-1.png);*/
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.relative-access-from-public-directory {
+  float: left;
+  height: 40vmin;
+  pointer-events: none;
+  width: 100px;
+  /*background-image: url(./images/googlelogo-1.png);*/
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+.static-access-from-src-directory {
+  float: left;
+  height: 40vmin;
+  pointer-events: none;
+  width: 100px;
+  /*background-image: url(assets/images/googlelogo.png);*/
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.relative-access-from-src-directory {
+  float: left;
+  height: 40vmin;
+  pointer-events: none;
+  width: 100px;
+  background-image: url(/assets/images/googlelogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
